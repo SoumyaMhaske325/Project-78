@@ -1,0 +1,28 @@
+body
+{
+    background-color:black;
+    color: blue;
+    border: solid;
+}
+h1
+{
+    color: red;
+    text-decoration: underline;
+}
+img
+{
+    color:greenyellow;
+    border: solid;
+}
+h4
+{
+    color: yellow;
+}
+#nextbutton
+{
+    background-color:aqua;
+    font-weight: bold;
+    color: black;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}

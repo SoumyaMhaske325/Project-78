@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Family book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center;">
+<h1>My Family Book</h1>
+<img src="https://fameimpact.com/wp-content/uploads/2021/12/nehajethwani529_248133803_120266800419429_8605970787878356711_n.jpg" style="width: 280px; height: 350px;" id="family_member_img">
+<h4 id="family_member_name">Neha</h4>
+<button id="nextbutton" onclick="update();">Next</button>
+<script>
+var images=[
+    "https://1.bp.blogspot.com/--55MxV82ccA/XbKYRc-ysUI/AAAAAAAAAwA/guiH4TyQbksG5sckazexbA6aXU_LLmnEwCLcBGAsYHQ/s1600/Somya%2BDaundkar%2B1.jpg",
+    "https://i0.wp.com/wikifamouspeople.com/wp-content/uploads/2019/07/Doll-Daundkar.jpg?fit=1080%2C710&ssl=1",
+    "https://i.pinimg.com/originals/4a/51/74/4a5174167ab3976250841475c3122f2a.jpg",
+    "https://bollywoody.in/wp-content/uploads/2021/01/Kajal-jadhav-on-Instagram_-_Spread-nuttela-not-hate-....-_ar_photographer-_the_food_town__CHo_NQRn3MyJPG-819x1024.jpg",
+    "https://1.bp.blogspot.com/-0ZWgyPEsCaU/XosKkMxJxqI/AAAAAAAAB-Y/oHa_CthIDA8QfFOkzqqJjl8s8WemQDdTwCLcBGAsYHQ/s1600/Surbhi%2BRathore.jpg",
+    
+];
+var names=[
+    "Soumya",
+    "Doll",
+    "Ashima",
+    "Kajal",
+    "Surbhi",
+
+];
+var Numbers_of_family_member_in_array = 5
+if(i> Numbers_of_family_member_in_array)
+{
+    i=0;
+}
+var updatedimage = images[i];
+var updatedname = names[i];
+document.getElementById("family_member_img").src = updatedimage;
+document.getElementById("family_member_name").innerHTML = updatedname;
+
+
+</script>
+</body>
+</html>
